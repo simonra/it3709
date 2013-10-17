@@ -64,6 +64,11 @@ Mouse::Mouse()
       color(qrand() % 256, qrand() % 256, qrand() % 256)
 {
     setRotation(qrand() % (360 * 16));
+    howFed = 1;
+    howAggressive = 1;
+    howStrong = 1;
+    whatSize = 1;
+    hp = 1;
 }
 //! [0]
 

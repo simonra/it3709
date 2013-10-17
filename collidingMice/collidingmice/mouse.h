@@ -58,6 +58,12 @@ protected:
     void advance(int step);
 
 private:
+    qreal whatSize;
+    qreal howFed;
+    qreal howAggressive; //ex: wimpy etc. But that is mayhaps strenght?
+    qreal howStrong;
+    qreal hp;
+
     qreal angle;
     qreal speed;
     qreal mouseEyeDirection;
